@@ -146,7 +146,11 @@ namespace HelloWorld
                 Console.WriteLine();
                 if(input == '3')
                 {
+<<<<<<< Updated upstream
                     ViewStats(name, damage);
+=======
+                    ViewStats(_playerName, _damage, _level);
+>>>>>>> Stashed changes
                 }
             }
             //Returns input recieved from the player
